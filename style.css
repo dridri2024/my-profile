@@ -1,0 +1,95 @@
+/* Colors and fonts*/
+
+body{
+  background-color: rgb(255, 227, 227);
+  color: rgb(55, 175, 225);
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+}
+h1,h2{
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+h1{
+  color: rgb(146, 26, 64);
+  font-size: 35px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2{
+color: rgb(146, 26, 64);
+font-size: 25px;
+font-weight: 500;
+
+}
+
+a{
+  text-decoration: none;
+  color:rgb(199, 91, 122);
+}
+a:hover {
+color: white;
+}
+
+  /*Custom design with class*/
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+.card-white{
+   background-color: white;
+   padding: 40px;
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+.btn-pink{
+  background-color: rgb(199, 91, 122);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-pink:hover {
+  background-color: black;
+  color: pink;
+ }
+
+ .list-inline{
+  list-style: none;
+  padding-left: 0px;
+ }
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 50px;
+  color: rgb(199, 91, 122);
+}
+.list-inline i:hover {
+  color: black;
+}
+/* Design adjustments using id (1% of design remaining) */
+#intro p {
+  margin-bottom: 40px;
+}
